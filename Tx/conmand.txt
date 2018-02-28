@@ -1,0 +1,4 @@
+scrapy crawl TxSpider -s FEED_EXPORT_ENCODING=utf-8  -o Tx.csv
+
+爬取台词网“谢谢”关键词  此爬虫起初存在问题为爬取过快 故需在setting.py中加入 DOWNLOAD_DELAY=3  另两种常见问题分别为USER_AGENT问题以及代理问题  代理问题还未发现被屏蔽   
+
